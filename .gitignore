@@ -15,7 +15,8 @@ data/
 Preprocessed Data/combined_data.csv
 Extracted Features/combined_wav2vec_features.csv
 deployment/
-
+*.csv
+*.wav
 
 # Models
 models/
