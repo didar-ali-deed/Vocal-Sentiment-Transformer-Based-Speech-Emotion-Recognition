@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Emotion Recognition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Speech Emotion Recognition</h1>
+            <p>Upload an audio file to predict emotions using our advanced Transformer model.</p>
+            <button id="themeToggle" aria-label="Toggle theme"><span class="theme-icon">🌙</span></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="upload-section">
+            <h2>Upload Audio</h2>
+            <div class="upload-container" id="dropZone">
+                <input type="file" id="audioFile" accept=".wav,.mp3,.flac">
+                <button id="predictButton" class="predict-button" onclick="predictEmotion()">Upload & Predict</button>
+                <audio id="audioPreview" controls style="display: none;"></audio>
+                <canvas id="waveformCanvas" style="display: none;"></canvas>
+                <div id="progressIndicator" class="progress-indicator hidden">
+                    <div class="loader"></div>
+                    <p id="progressText">Initializing...</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="prediction-section">
+            <h2>Prediction Result</h2>
+            <div class="prediction-result">
+                <div id="emoji">⏳</div>
+                <p id="caption" class="caption">Awaiting prediction...</p>
+                <p id="confidence" class="confidence"></p>
+                <div id="predictionDetails" class="prediction-details hidden">
+                    <h3>Prediction Details</h3>
+                    <p id="featureExtractionTime"></p>
+                    <p id="predictionTime"></p>
+                    <canvas id="probabilitiesChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="previous-predictions">
+            <h2>Previous Predictions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>File Name</th>
+                        <th>Emotion</th>
+                        <th>Confidence</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody id="predictionsBody">
+                    <tr><td colspan="4">Loading previous predictions...</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        Speech Emotion Recognition © 2025 | Powered by xAI
+    </footer>
+
+    <noscript>
+        <div style="text-align: center; padding: 20px; color: red;">
+            JavaScript is required for this application to function properly.
+        </div>
+    </noscript>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

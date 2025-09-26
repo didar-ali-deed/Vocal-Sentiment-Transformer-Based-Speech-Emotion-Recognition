@@ -1,0 +1,242 @@
+[
+    {
+        "audio_file": "OAF_bath_happy.wav",
+        "predicted_emotion": "happy",
+        "confidence": 0.9985485672950745,
+        "probabilities": {
+            "angry": 1.3961994227429386e-05,
+            "disgust": 1.4618696695833933e-05,
+            "fear": 5.744422014686279e-05,
+            "happy": 0.9985485672950745,
+            "neutral": 3.5205632684665034e-06,
+            "surprise": 0.0013172621838748455,
+            "sad": 2.4930712243076414e-05,
+            "unknown": 1.958271604962647e-05
+        },
+        "timestamp": 1748308193
+    },
+    {
+        "audio_file": "OAF_base_happy.wav",
+        "predicted_emotion": "happy",
+        "confidence": 0.9931714534759521,
+        "probabilities": {
+            "angry": 2.1397056116256863e-05,
+            "disgust": 1.6347034033969976e-05,
+            "fear": 0.0025883307680487633,
+            "happy": 0.9931714534759521,
+            "neutral": 1.4668331459688488e-05,
+            "surprise": 0.004148855805397034,
+            "sad": 2.1608830138575286e-05,
+            "unknown": 1.730986150505487e-05
+        },
+        "timestamp": 1748308207
+    },
+    {
+        "audio_file": "sound-effect-woman-giggling-and-laughing-320487.mp3",
+        "predicted_emotion": "fear",
+        "confidence": 0.5831391215324402,
+        "probabilities": {
+            "angry": 0.0004621536936610937,
+            "disgust": 8.713566057849675e-05,
+            "fear": 0.5831391215324402,
+            "happy": 4.4501015509013087e-05,
+            "neutral": 0.0005253469571471214,
+            "surprise": 0.044358495622873306,
+            "sad": 0.3711588680744171,
+            "unknown": 0.00022431010438594967
+        },
+        "timestamp": 1748308227
+    },
+    {
+        "audio_file": "Angry.mp3",
+        "predicted_emotion": "fear",
+        "confidence": 0.795549213886261,
+        "probabilities": {
+            "angry": 0.1052609533071518,
+            "disgust": 0.0029725474305450916,
+            "fear": 0.795549213886261,
+            "happy": 0.00048161123413592577,
+            "neutral": 9.441893780604005e-05,
+            "surprise": 0.003619570517912507,
+            "sad": 0.09187664836645126,
+            "unknown": 0.00014511872723232955
+        },
+        "timestamp": 1748308253
+    },
+    {
+        "audio_file": "woman-laugh-6421.mp3",
+        "predicted_emotion": "fear",
+        "confidence": 0.9087983965873718,
+        "probabilities": {
+            "angry": 4.515701948548667e-05,
+            "disgust": 4.231854109093547e-05,
+            "fear": 0.9087983965873718,
+            "happy": 8.330683340318501e-05,
+            "neutral": 5.067291567684151e-05,
+            "surprise": 0.014824715442955494,
+            "sad": 0.07473347336053848,
+            "unknown": 0.0014219570439308882
+        },
+        "timestamp": 1748308270
+    },
+    {
+        "audio_file": "DC_a07.wav",
+        "predicted_emotion": "neutral",
+        "confidence": 0.9433508515357971,
+        "probabilities": {
+            "angry": 0.029681488871574402,
+            "disgust": 0.017377080395817757,
+            "fear": 0.00023031992895994335,
+            "happy": 0.007419044617563486,
+            "neutral": 0.9433508515357971,
+            "surprise": 3.237799319322221e-05,
+            "sad": 0.0017159668495878577,
+            "unknown": 0.00019281351706013083
+        },
+        "timestamp": 1748308296
+    },
+    {
+        "audio_file": "DC_a06.wav",
+        "predicted_emotion": "disgust",
+        "confidence": 0.568485677242279,
+        "probabilities": {
+            "angry": 0.3424040377140045,
+            "disgust": 0.568485677242279,
+            "fear": 0.0014376152539625764,
+            "happy": 0.0010434011928737164,
+            "neutral": 0.08032657951116562,
+            "surprise": 1.3871640476281755e-05,
+            "sad": 0.004193357657641172,
+            "unknown": 0.0020953945349901915
+        },
+        "timestamp": 1748308305
+    },
+    {
+        "audio_file": "DC_a04.wav",
+        "predicted_emotion": "neutral",
+        "confidence": 0.5201488137245178,
+        "probabilities": {
+            "angry": 0.4751809239387512,
+            "disgust": 0.002174942521378398,
+            "fear": 0.00010897406173171476,
+            "happy": 0.0016073966398835182,
+            "neutral": 0.5201488137245178,
+            "surprise": 2.3876455088611692e-05,
+            "sad": 0.00011595969408517703,
+            "unknown": 0.0006391874048858881
+        },
+        "timestamp": 1748308317
+    },
+    {
+        "audio_file": "DC_h10.wav",
+        "predicted_emotion": "happy",
+        "confidence": 0.9485576748847961,
+        "probabilities": {
+            "angry": 0.01839703880250454,
+            "disgust": 0.0037067579105496407,
+            "fear": 0.0002329045964870602,
+            "happy": 0.9485576748847961,
+            "neutral": 0.025572383776307106,
+            "surprise": 0.0019881862681359053,
+            "sad": 0.0005651672254316509,
+            "unknown": 0.000979793374426663
+        },
+        "timestamp": 1748308335
+    },
+    {
+        "audio_file": "DC_h09.wav",
+        "predicted_emotion": "angry",
+        "confidence": 0.8813591599464417,
+        "probabilities": {
+            "angry": 0.8813591599464417,
+            "disgust": 0.0003806347376666963,
+            "fear": 0.00013541773660108447,
+            "happy": 0.011966272257268429,
+            "neutral": 0.10278278589248657,
+            "surprise": 1.99903533939505e-05,
+            "sad": 0.0003073352563660592,
+            "unknown": 0.0030484397429972887
+        },
+        "timestamp": 1748308350
+    },
+    {
+        "audio_file": "DC_a07.wav",
+        "predicted_emotion": "neutral",
+        "confidence": 0.9823768138885498,
+        "probabilities": {
+            "angry": 0.001657313434407115,
+            "disgust": 0.0126490518450737,
+            "fear": 1.9356619304744527e-05,
+            "happy": 0.00283969403244555,
+            "neutral": 0.9823768138885498,
+            "surprise": 6.41638325760141e-05,
+            "sad": 0.00022564160462934524,
+            "unknown": 0.00016794426483102143
+        },
+        "timestamp": 1748312403
+    },
+    {
+        "audio_file": "DC_a02.wav",
+        "predicted_emotion": "neutral",
+        "confidence": 0.8709534406661987,
+        "probabilities": {
+            "angry": 0.1236037164926529,
+            "disgust": 0.0036726093385368586,
+            "fear": 3.47197383234743e-05,
+            "happy": 0.0001676582614891231,
+            "neutral": 0.8709534406661987,
+            "surprise": 5.6201180996140465e-05,
+            "sad": 7.121127418940887e-05,
+            "unknown": 0.0014405089896172285
+        },
+        "timestamp": 1748312414
+    },
+    {
+        "audio_file": "DC_a01.wav",
+        "predicted_emotion": "angry",
+        "confidence": 0.7212001085281372,
+        "probabilities": {
+            "angry": 0.7212001085281372,
+            "disgust": 0.00375093100592494,
+            "fear": 0.00021907863265369087,
+            "happy": 0.0001680649002082646,
+            "neutral": 0.2735918462276459,
+            "surprise": 1.2801691809727345e-05,
+            "sad": 0.00013114359171595424,
+            "unknown": 0.0009260604274459183
+        },
+        "timestamp": 1748312425
+    },
+    {
+        "audio_file": "DC_a03.wav",
+        "predicted_emotion": "neutral",
+        "confidence": 0.9957112073898315,
+        "probabilities": {
+            "angry": 0.0027199469041079283,
+            "disgust": 0.0002075728989439085,
+            "fear": 1.7666761777945794e-05,
+            "happy": 0.0008283175411634147,
+            "neutral": 0.9957112073898315,
+            "surprise": 0.00040953594725579023,
+            "sad": 1.8012544387602247e-05,
+            "unknown": 8.768626867095008e-05
+        },
+        "timestamp": 1748312438
+    },
+    {
+        "audio_file": "disgust.wav",
+        "predicted_emotion": "disgust",
+        "confidence": 0.9997712969779968,
+        "probabilities": {
+            "angry": 3.503654443193227e-05,
+            "disgust": 0.9997712969779968,
+            "fear": 2.1067839043098502e-05,
+            "happy": 3.955521606258117e-06,
+            "neutral": 5.266283915261738e-05,
+            "surprise": 2.144790778402239e-05,
+            "sad": 9.150342521024868e-05,
+            "unknown": 2.9491195618902566e-06
+        },
+        "timestamp": 1758834571
+    }
+]
